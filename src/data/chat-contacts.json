@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Andrei Popescu",
+    "img": "/person1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Maria Rodriguez",
+    "img": "/person2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Liam Smith",
+    "img": "/person3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Emma Johnson",
+    "img": "/person4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Noah Brown",
+    "img": "/person5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Davis",
+    "img": "/person6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Lucas Wilson",
+    "img": "/person7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Sophia Moore",
+    "img": "/person8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mason Taylor",
+    "img": "/person9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ava Anderson",
+    "img": "/person10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Ethan Thomas",
+    "img": "/person11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Isabella Jackson",
+    "img": "/person12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "James White",
+    "img": "/person13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Mia Harris",
+    "img": "/person14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Alexander Martin",
+    "img": "/person15.jpg"
+  }
+]

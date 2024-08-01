@@ -1,0 +1,15 @@
+[
+  {
+    "id": 0,
+    "contacts": [
+      {
+        "id": 1,
+        "name": "Andrei Popescu"
+      },
+      {
+        "id": 5,
+        "name": "Noah Brown"
+      }
+    ]
+  }
+]

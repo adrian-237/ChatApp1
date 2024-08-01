@@ -1,0 +1,23 @@
+[
+  {
+    "conversationID": 0,
+    "messages": [
+      {
+        "id": 0,
+        "message": "hello my friend",
+        "date": "Tue 23 Jan",
+        "hour": "5:14 pm",
+        "author": "Andrei Popescu",
+        "authorID": 1
+      },
+      {
+        "id": 1,
+        "message": "Hola",
+        "date": "Tue 23 Jan",
+        "hour": "5:16 pm",
+        "author": "Noah Brown",
+        "authorID": 5
+      }
+    ]
+  }
+]
