@@ -166,3 +166,48 @@ input {
   overflow: hidden;
   overflow-y: scroll;
 }
+/* 
+.chat-layout-modal-active {
+  filter: blur(2px) brightness(50%);
+} */
+
+.chat-modal {
+  position: absolute;
+  min-width: 20rem;
+  width: 40%;
+  height: 50vh;
+
+  z-index: 10;
+  background-color: #f1fbff;
+  border-radius: 15px;
+}
+
+.chat-modal-header {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.chat-modal-header {
+  font-size: 20px;
+  color: var(--dark-1);
+  font-weight: bold;
+  border-bottom: 3px solid #e1f6ff;
+  border-radius: 10px;
+}
+.close-modal {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  transition: 300ms;
+}
+
+.close-modal:hover {
+  filter: drop-shadow(3px 3px 5px var(--primary-color));
+  cursor: pointer;
+}
