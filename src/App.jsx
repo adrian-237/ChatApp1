@@ -9,7 +9,7 @@ import ChatLayout from "./components/chat-layout";
 function App() {
   return (
     <>
-      {<ChatModal />}
+      {false && <ChatModal />}
       <ChatLayout aside={<ChatAside />} main={<ChatMainSection />}></ChatLayout>
     </>
   );
