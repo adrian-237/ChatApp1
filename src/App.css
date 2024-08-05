@@ -16,6 +16,7 @@
   height: 80%;
   border-radius: 20px;
   overflow: hidden;
+  transition: 300ms;
 }
 
 .aside {
@@ -198,6 +199,7 @@ input {
 .message-button:hover {
   background-color: var(--primary-color);
   filter: drop-shadow(3px 3px 5px var(--primary-color));
+  cursor: pointer;
 }
 
 .aside .message-button {
@@ -217,10 +219,10 @@ input {
   overflow: hidden;
   overflow-y: scroll;
 }
-/* 
+
 .chat-layout-modal-active {
   filter: blur(2px) brightness(50%);
-} */
+}
 
 .chat-modal {
   position: absolute;
@@ -261,4 +263,34 @@ input {
 .close-modal:hover {
   filter: drop-shadow(3px 3px 5px var(--primary-color));
   cursor: pointer;
+}
+
+.chat-modal-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: auto;
+  overflow-y: scroll;
+  height: 80%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.chat-modal-contact {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  padding: 5px;
+  transition: 300ms;
+  align-items: center;
+}
+
+.chat-modal-contact:hover {
+  background-color: #128c7e0c;
+}
+
+.chat-modal-contact img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
