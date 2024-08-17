@@ -1,14 +1,20 @@
-export default function ChatContact() {
+export default function ChatContact({
+  id,
+  image,
+  name,
+  last_message,
+  last_message_time,
+}) {
   return (
     <div className="chat-contact">
       <div className="chat-contact-data">
-        <img src="person1.jpg" alt="" />
+        <img src={image} />
         <div className="chat-contact-info">
-          <div className="chat-contact-name">My name</div>
-          <div className="chat-contact-message">Last message</div>
+          <div className="chat-contact-name">{name}</div>
+          <div className="chat-contact-message">{last_message}</div>
         </div>
       </div>
-      <div className="chat-contact-message-time">5:14 pm</div>
+      <div className="chat-contact-message-time">{last_message_time}</div>
     </div>
   );
 }

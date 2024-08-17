@@ -1,14 +1,61 @@
 [
   {
     "id": 0,
-    "contacts": [
+    "contact": [
       {
         "id": 1,
-        "name": "Andrei Popescu"
-      },
+        "name": "Andrei Popescu",
+        "img": "./person1.jpg",
+        "last_message": "Hello",
+        "last_message_time": "5:14 PM"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "contact": [
+      {
+        "id": 2,
+        "name": "Maria Rodriguez",
+        "img": "./person2.jpg",
+        "last_message": "How are you?",
+        "last_message_time": "3:30 PM"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "contact": [
+      {
+        "id": 3,
+        "name": "Liam Smith",
+        "img": "./person3.jpg",
+        "last_message": "See you soon",
+        "last_message_time": "11:00 AM"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "contact": [
+      {
+        "id": 4,
+        "name": "Emma Johnson",
+        "img": "./person4.jpg",
+        "last_message": "Good night",
+        "last_message_time": "9:45 PM"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "contact": [
       {
         "id": 5,
-        "name": "Noah Brown"
+        "name": "Noah Brown",
+        "img": "./person5.jpg",
+        "last_message": "Happy Birthday!",
+        "last_message_time": "2:20 PM"
       }
     ]
   }

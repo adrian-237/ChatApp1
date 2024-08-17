@@ -4,17 +4,421 @@
     "messages": [
       {
         "id": 0,
-        "message": "hello my friend",
-        "date": "Tue 23 Jan",
-        "hour": "5:14 pm",
+        "message": "Hey Andrei, how's it going?",
+        "date": "Mon 1 Aug",
+        "hour": "5:10 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 1,
+        "message": "Hi! I'm doing well, thanks. How about you?",
+        "date": "Mon 1 Aug",
+        "hour": "5:12 PM",
         "author": "Andrei Popescu",
         "authorID": 1
       },
       {
+        "id": 2,
+        "message": "I'm good, just busy with work.",
+        "date": "Mon 1 Aug",
+        "hour": "5:14 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 3,
+        "message": "Same here, it's been a hectic week.",
+        "date": "Mon 1 Aug",
+        "hour": "5:16 PM",
+        "author": "Andrei Popescu",
+        "authorID": 1
+      },
+      {
+        "id": 4,
+        "message": "We should catch up soon.",
+        "date": "Mon 1 Aug",
+        "hour": "5:18 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 5,
+        "message": "Definitely! How about this weekend?",
+        "date": "Mon 1 Aug",
+        "hour": "5:20 PM",
+        "author": "Andrei Popescu",
+        "authorID": 1
+      },
+      {
+        "id": 6,
+        "message": "That works for me.",
+        "date": "Mon 1 Aug",
+        "hour": "5:22 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 7,
+        "message": "Great, I'll text you the details.",
+        "date": "Mon 1 Aug",
+        "hour": "5:24 PM",
+        "author": "Andrei Popescu",
+        "authorID": 1
+      },
+      {
+        "id": 8,
+        "message": "Looking forward to it!",
+        "date": "Mon 1 Aug",
+        "hour": "5:26 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 9,
+        "message": "Me too. See you soon!",
+        "date": "Mon 1 Aug",
+        "hour": "5:28 PM",
+        "author": "Andrei Popescu",
+        "authorID": 1
+      }
+    ]
+  },
+  {
+    "conversationID": 1,
+    "messages": [
+      {
+        "id": 0,
+        "message": "Hi Maria! How are you?",
+        "date": "Tue 12 Jul",
+        "hour": "3:28 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
         "id": 1,
-        "message": "Hola",
-        "date": "Tue 23 Jan",
-        "hour": "5:16 pm",
+        "message": "Hey! I'm good, just finished a project. You?",
+        "date": "Tue 12 Jul",
+        "hour": "3:30 PM",
+        "author": "Maria Rodriguez",
+        "authorID": 2
+      },
+      {
+        "id": 2,
+        "message": "Congrats! I've been swamped with meetings.",
+        "date": "Tue 12 Jul",
+        "hour": "3:32 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 3,
+        "message": "Thanks! Let's grab coffee this weekend?",
+        "date": "Tue 12 Jul",
+        "hour": "3:34 PM",
+        "author": "Maria Rodriguez",
+        "authorID": 2
+      },
+      {
+        "id": 4,
+        "message": "Sounds great! I'm free Saturday morning.",
+        "date": "Tue 12 Jul",
+        "hour": "3:36 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 5,
+        "message": "Perfect! Let's meet at 10 AM.",
+        "date": "Tue 12 Jul",
+        "hour": "3:38 PM",
+        "author": "Maria Rodriguez",
+        "authorID": 2
+      },
+      {
+        "id": 6,
+        "message": "See you then!",
+        "date": "Tue 12 Jul",
+        "hour": "3:40 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 7,
+        "message": "Can't wait!",
+        "date": "Tue 12 Jul",
+        "hour": "3:42 PM",
+        "author": "Maria Rodriguez",
+        "authorID": 2
+      },
+      {
+        "id": 8,
+        "message": "Same here!",
+        "date": "Tue 12 Jul",
+        "hour": "3:44 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 9,
+        "message": "See you soon!",
+        "date": "Tue 12 Jul",
+        "hour": "3:46 PM",
+        "author": "Maria Rodriguez",
+        "authorID": 2
+      }
+    ]
+  },
+  {
+    "conversationID": 2,
+    "messages": [
+      {
+        "id": 0,
+        "message": "Hey Liam, long time no see!",
+        "date": "Wed 8 Jun",
+        "hour": "10:55 AM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 1,
+        "message": "Hey! I know, it's been a while.",
+        "date": "Wed 8 Jun",
+        "hour": "10:57 AM",
+        "author": "Liam Smith",
+        "authorID": 3
+      },
+      {
+        "id": 2,
+        "message": "Let's meet up sometime soon.",
+        "date": "Wed 8 Jun",
+        "hour": "10:59 AM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 3,
+        "message": "For sure! Are you free this weekend?",
+        "date": "Wed 8 Jun",
+        "hour": "11:01 AM",
+        "author": "Liam Smith",
+        "authorID": 3
+      },
+      {
+        "id": 4,
+        "message": "I am! How about Saturday?",
+        "date": "Wed 8 Jun",
+        "hour": "11:03 AM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 5,
+        "message": "Saturday works. Where should we go?",
+        "date": "Wed 8 Jun",
+        "hour": "11:05 AM",
+        "author": "Liam Smith",
+        "authorID": 3
+      },
+      {
+        "id": 6,
+        "message": "Let's grab brunch at that new café.",
+        "date": "Wed 8 Jun",
+        "hour": "11:07 AM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 7,
+        "message": "Good idea! I'll see you there.",
+        "date": "Wed 8 Jun",
+        "hour": "11:09 AM",
+        "author": "Liam Smith",
+        "authorID": 3
+      },
+      {
+        "id": 8,
+        "message": "Looking forward to it!",
+        "date": "Wed 8 Jun",
+        "hour": "11:11 AM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 9,
+        "message": "Me too. See you Saturday!",
+        "date": "Wed 8 Jun",
+        "hour": "11:13 AM",
+        "author": "Liam Smith",
+        "authorID": 3
+      }
+    ]
+  },
+  {
+    "conversationID": 3,
+    "messages": [
+      {
+        "id": 0,
+        "message": "Hi Emma! How's everything?",
+        "date": "Sun 10 Jul",
+        "hour": "9:40 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 1,
+        "message": "Hey! Everything's good, just winding down for the day.",
+        "date": "Sun 10 Jul",
+        "hour": "9:42 PM",
+        "author": "Emma Johnson",
+        "authorID": 4
+      },
+      {
+        "id": 2,
+        "message": "Sounds relaxing. Did you have a good weekend?",
+        "date": "Sun 10 Jul",
+        "hour": "9:44 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 3,
+        "message": "Yes, it was great. How about you?",
+        "date": "Sun 10 Jul",
+        "hour": "9:46 PM",
+        "author": "Emma Johnson",
+        "authorID": 4
+      },
+      {
+        "id": 4,
+        "message": "Pretty good. Went hiking and relaxed.",
+        "date": "Sun 10 Jul",
+        "hour": "9:48 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 5,
+        "message": "That sounds wonderful!",
+        "date": "Sun 10 Jul",
+        "hour": "9:50 PM",
+        "author": "Emma Johnson",
+        "authorID": 4
+      },
+      {
+        "id": 6,
+        "message": "It was. We should plan something soon.",
+        "date": "Sun 10 Jul",
+        "hour": "9:52 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 7,
+        "message": "Definitely. Let's catch up this week.",
+        "date": "Sun 10 Jul",
+        "hour": "9:54 PM",
+        "author": "Emma Johnson",
+        "authorID": 4
+      },
+      {
+        "id": 8,
+        "message": "Sounds like a plan.",
+        "date": "Sun 10 Jul",
+        "hour": "9:56 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 9,
+        "message": "Great, I'll message you some details.",
+        "date": "Sun 10 Jul",
+        "hour": "9:58 PM",
+        "author": "Emma Johnson",
+        "authorID": 4
+      }
+    ]
+  },
+  {
+    "conversationID": 4,
+    "messages": [
+      {
+        "id": 0,
+        "message": "Hey Noah, thanks for the birthday wishes!",
+        "date": "Fri 5 May",
+        "hour": "2:15 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 1,
+        "message": "You're welcome! Hope you had a great day.",
+        "date": "Fri 5 May",
+        "hour": "2:17 PM",
+        "author": "Noah Brown",
+        "authorID": 5
+      },
+      {
+        "id": 2,
+        "message": "I did, thanks! It was a lot of fun.",
+        "date": "Fri 5 May",
+        "hour": "2:19 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 3,
+        "message": "Glad to hear that!",
+        "date": "Fri 5 May",
+        "hour": "2:21 PM",
+        "author": "Noah Brown",
+        "authorID": 5
+      },
+      {
+        "id": 4,
+        "message": "Let's celebrate together sometime soon.",
+        "date": "Fri 5 May",
+        "hour": "2:23 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 5,
+        "message": "Absolutely, let’s plan for next week.",
+        "date": "Fri 5 May",
+        "hour": "2:25 PM",
+        "author": "Noah Brown",
+        "authorID": 5
+      },
+      {
+        "id": 6,
+        "message": "Looking forward to it!",
+        "date": "Fri 5 May",
+        "hour": "2:27 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 7,
+        "message": "Me too. I'll reach out soon.",
+        "date": "Fri 5 May",
+        "hour": "2:29 PM",
+        "author": "Noah Brown",
+        "authorID": 5
+      },
+      {
+        "id": 8,
+        "message": "Great, talk to you soon!",
+        "date": "Fri 5 May",
+        "hour": "2:31 PM",
+        "author": "me",
+        "authorID": 0
+      },
+      {
+        "id": 9,
+        "message": "Sounds good. Have a great weekend!",
+        "date": "Fri 5 May",
+        "hour": "2:33 PM",
         "author": "Noah Brown",
         "authorID": 5
       }
