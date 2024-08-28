@@ -1,8 +1,8 @@
-export default function ChatMainHeader() {
+export default function ChatMainHeader({ id, image, name }) {
   return (
     <div className="chat-main-header">
-      <img src="person1.jpg" alt="" />
-      <div className="contact-name"> John Wick</div>
+      <img src={image} alt="" />
+      <div className="contact-name"> {name} </div>
     </div>
   );
 }

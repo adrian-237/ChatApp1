@@ -4,9 +4,10 @@ export default function ChatContact({
   name,
   last_message,
   last_message_time,
+  onClick,
 }) {
   return (
-    <div className="chat-contact">
+    <div onClick={onClick} className="chat-contact">
       <div className="chat-contact-data">
         <img src={image} />
         <div className="chat-contact-info">
